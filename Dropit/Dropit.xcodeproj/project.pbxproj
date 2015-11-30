@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		577BF5E61C0BD6790090E808 /* BezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BF5E51C0BD6790090E808 /* BezierPathsView.swift */; };
 		578AAF971C0BC793001886D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AAF961C0BC793001886D5 /* AppDelegate.swift */; };
 		578AAF9C1C0BC793001886D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AAF9A1C0BC793001886D5 /* Main.storyboard */; };
 		578AAF9E1C0BC793001886D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578AAF9D1C0BC793001886D5 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		577BF5E51C0BD6790090E808 /* BezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathsView.swift; sourceTree = "<group>"; };
 		578AAF931C0BC793001886D5 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578AAF961C0BC793001886D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578AAF9B1C0BC793001886D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				578AAFA81C0BC7C2001886D5 /* DropitViewController.swift */,
+				577BF5E51C0BD6790090E808 /* BezierPathsView.swift */,
 				578AAFAA1C0BCEA6001886D5 /* DropitBehavior.swift */,
 				578AAF9A1C0BC793001886D5 /* Main.storyboard */,
 				578AAF961C0BC793001886D5 /* AppDelegate.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577BF5E61C0BD6790090E808 /* BezierPathsView.swift in Sources */,
 				578AAFA91C0BC7C2001886D5 /* DropitViewController.swift in Sources */,
 				578AAF971C0BC793001886D5 /* AppDelegate.swift in Sources */,
 				578AAFAB1C0BCEA6001886D5 /* DropitBehavior.swift in Sources */,
@@ -290,6 +294,7 @@
 				578AAFA71C0BC793001886D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
